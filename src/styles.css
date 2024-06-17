@@ -1,1 +1,145 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Work+Sans&display=swap');
+
+:root {
+    /* Colours */
+    --background: #F3F3F3;
+    --onbackground: #252525;
+    --primary: #005461;
+    --primary-hover: #79A6AF;
+    --outline: #333333;
+    --grey-default: #CECECE;
+    --grey-darker: #6C6C6C;
+    --secondary: #E6DACE;
+    /* Soft Grid Base Unit */
+    --sg-unit: 8px;
+    --sg_sm: calc(var(--sg-unit) * 0.5);
+    --sg: var(--sg-unit);
+    --sg_lg: calc(var(--sg-unit) * 2);
+    --sg_xlg: calc(var(--sg-unit) * 3);
+    --sg_xxlg: calc(var(--sg-unit) * 4);
+    --header-height: 0px;
+    /* Border radius */
+    --border-radius: 12px;
+    /* Transition */
+    --transition: 250ms;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    line-height: normal;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.00937rem;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.15556;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2222;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+p {
+    margin: 0 0 var(--sg) 0;
+}
+
+hr {
+    margin: var(--sg_lg) 0;
+}
+
+main {
+    background-color: var(--background);
+    color: var(--onbackground);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: inherit;
+    width: 100%;
+    position: fixed;
+    top: var(--header-height);
+}
+
+article {
+    overflow: auto;
+    width: 100%;
+}
+
+.page-container {
+    padding: var(--sg_xxlg);
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+}
+
+.step-marker {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.step-marker.is-hidden {
+visibility: hidden;
+}
+
+.step-marker_container {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.step-marker.is-dimmed .step-marker_container {
+    opacity: 0.3;
+}
+
+.step-marker img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.step-marker_cluster {
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    text-align: center;
+    height: 16px;
+    line-height: 15px;
+    width: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background: var(--onbackground);
+    z-index: 10;
+    color: white;
+    font-size: 10px;
+}
+
+.step-marker.is-dimmed .step-marker_cluster {
+    opacity: 0.3;
+}
+
+.trips:has(.trip__container) .step-marker_container:hover {
+    box-shadow: 0 0 0 var(--sg_sm) var(--primary-hover), 0 0 0 var(--sg) #79A6AF80;
+}

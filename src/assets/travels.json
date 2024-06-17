@@ -1,0 +1,431 @@
+[
+    {
+      "id": 5,
+      "title": "Portugal",
+      "startDate": "04/09/2023",
+      "endDate": "18/09/2023",
+      "background": "portugal_2023_background",
+      "zoom": 10,
+      "steps": [
+        {    
+          "title": "Lisbon",
+          "description": "Arrival at the capital of Portugal.",
+          "date": "05/09/2023",
+          "latitude": 38.713450, 
+          "longitude": -9.141697,
+          "pictures": [
+            "portugal_2023_1_n"
+          ]
+        },
+        {
+          "title": "Belem",
+          "description": "Visit of Belem.",
+          "date": "06/09/2023",
+          "latitude": 38.692078,  
+          "longitude": -9.214683,
+          "pictures": [
+            "portugal_2023_2_n"
+          ]
+        },
+        {
+          "title": "Madeira",
+          "description": "Visiting the remote island of Madeira.",
+          "date": "10/09/2023",
+          "latitude": 32.646978, 
+          "longitude": -16.896728,
+          "pictures": [
+            "portugal_2023_3"  
+          ]
+        },
+        {
+          "title": "Miradouro Ponta do Furado",
+          "description": "First hike in Madeira.",
+          "date": "11/09/2023",
+          "latitude": 32.738984300424164, 
+          "longitude": -16.680474671255745,
+          "pictures": [
+            "portugal_2023_4"  
+          ]
+        },
+        {
+          "title": "Pico do Areeiro",
+          "description": "Second hike in Madeira.",
+          "date": "12/09/2023",
+          "latitude": 32.735125, 
+          "longitude": -16.928736,
+          "pictures": [
+            "portugal_2023_5"  
+          ]
+        },
+        {
+          "title": "Cabo Girao",
+          "description": "Biking up the mountains of Madeira.",
+          "date": "14/09/2023",
+          "latitude": 32.656481, 
+          "longitude": -17.004578,
+          "pictures": [
+            "portugal_2023_6"  
+          ]
+        },
+        {
+          "title": "Levada das 25 fontes",
+          "description": "Hiking to the Cascata do Risco.",
+          "date": "15/09/2023",
+          "latitude": 32.760569,  
+          "longitude": -17.124128,
+          "pictures": [
+            "portugal_2023_7"  
+          ]
+        },
+        {
+          "title": "Porto Moniz",
+          "description": "Visiting the north of the island and the natural pools.",
+          "date": "17/09/2023",
+          "latitude": 32.867753,  
+          "longitude": -17.167250,
+          "pictures": [
+            "portugal_2023_8"  
+          ]
+        },
+        {
+          "title": "Caldeirao Verde",
+          "description": "Last hike of our trip in a levada.",
+          "date": "18/09/2023",
+          "latitude": 32.779511,  
+          "longitude": -16.934008,
+          "pictures": [
+            "portugal_2023_9"  
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Côte d'Azur",
+      "startDate": "20/06/2023",
+      "endDate": "29/06/2023",
+      "background": "france_2023_background",
+      "zoom": 12,
+      "steps": [
+        {    
+          "title": "Eze",
+          "description": "Sleeping in Eze.",
+          "date": "21/06/2023",
+          "latitude": 43.730197774821676, 
+          "longitude": 7.366091975737125, 
+          "pictures": [
+            "france_2023_1"
+          ]
+        },
+        {    
+          "title": "Menton",
+          "description": "Visiting the city of lemons.",
+          "date": "22/06/2023",
+          "latitude": 43.779050,  
+          "longitude": 7.505969, 
+          "pictures": [
+            "france_2023_3"
+          ]
+        },
+        {    
+          "title": "Saint-Jean-Cap-Ferrat",
+          "description": "Day at the beach.",
+          "date": "23/06/2023",
+          "latitude": 43.686356,
+          "longitude": 7.349083, 
+          "pictures": [
+            "france_2023_4"
+          ]
+        },
+        {    
+          "title": "Nice",
+          "description": "Climbing the hills of Nice. Nice!",
+          "date": "24/06/2023",
+          "latitude": 43.695753,  
+          "longitude": 7.279872, 
+          "pictures": [
+            "france_2023_5"
+          ]
+        },
+        {    
+          "title": "Eze",
+          "description": "Visiting the botanical garden of Eze.",
+          "date": "26/06/2023",
+          "latitude": 43.728228, 
+          "longitude": 7.361325, 
+          "pictures": [
+            "france_2023_6"
+          ]
+        },
+        {
+          "title": "Monaco",
+          "description": "Small trip to Monaco.",
+          "date": "29/06/2023",
+          "latitude": 43.73277010481234, 
+          "longitude": 7.427006718598666,
+          "pictures": [
+            "france_2023_2"  
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vietnam",
+      "startDate": "07/10/2022",
+      "endDate": "22/10/2022",
+      "background": "vietnam_2022_background",
+      "zoom": 9,
+      "steps": [
+        {    
+          "title": "Ho Chi Minh",
+          "description": "Arrival at the capital of Vietnam.",
+          "date": "09/10/2022",
+          "latitude": 10.775339, 
+          "longitude": 106.702192,
+          "pictures": [
+            "vietnam_2022_1"
+          ]
+        },
+        {    
+          "title": "Hoi An",
+          "description": "Visited a completely flooded Hoi An by boat.",
+          "date": "11/10/2022",
+          "latitude": 15.878500,   
+          "longitude": 108.323383,
+          "pictures": [
+            "vietnam_2022_3"
+          ]
+        },
+        {    
+          "title": "Da Nang",
+          "description": "Sightseeing in Da Nang by checking the Lady Buddha.",
+          "date": "12/10/2022",
+          "latitude": 16.099851368945924,   
+          "longitude": 108.2769681725148,
+          "pictures": [
+            "vietnam_2022_4"
+          ]
+        },
+        {    
+          "title": "My Son",
+          "description": "Visiting the old temples of My Son.",
+          "date": "13/10/2022",
+          "latitude": 15.764525,    
+          "longitude": 108.125078,
+          "pictures": [
+            "vietnam_2022_5"
+          ]
+        },
+        {
+          "title": "Ha Long Bay",
+          "description": "Visiting the North of the country and the wonderful bay.",
+          "date": "15/10/2022",
+          "latitude": 20.800209440156063,  
+          "longitude": 107.09698357230027,
+          "pictures": [
+            "vietnam_2022_2"  
+          ]
+        },
+        {
+          "title": "Hanoi",
+          "description": "Visiting the capital of the North.",
+          "date": "17/10/2022",
+          "latitude": 21.034222,   
+          "longitude": 105.839747,
+          "pictures": [
+            "vietnam_2022_6"  
+          ]
+        },
+        {
+          "title": "Sa Pa",
+          "description": "Two day trip to the remote mountains of Sa Pa.",
+          "date": "19/10/2022",
+          "latitude": 22.312828,   
+          "longitude": 103.858167,
+          "pictures": [
+            "vietnam_2022_7"  
+          ]
+        },
+        {
+          "title": "Ninh Binh",
+          "description": "Last excursion to the terrestrial Halong Bay.",
+          "date": "20/10/2022",
+          "latitude": 20.229425,   
+          "longitude": 105.933922,
+          "pictures": [
+            "vietnam_2022_8"  
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "From France to Italy",
+      "startDate": "17/08/2022",
+      "endDate": "28/08/2022",
+      "background": "italy_2022_background",
+      "zoom": 11,
+      "steps": [
+        {    
+          "title": "Reims",
+          "description": "Visit of the champagne caves of Veuve Clicquot.",
+          "date": "17/08/2022",
+          "latitude": 49.239597108059144, 
+          "longitude": 4.0453665947012905,
+          "pictures": [
+            "italy_2022_10"
+          ]
+        },
+        {    
+          "title": "Verzy",
+          "description": "Visit of the Faux de Verzy with the family.",
+          "date": "17/08/2022",
+          "latitude": 49.141141109612505, 
+          "longitude": 4.156578696671744,
+          "pictures": [
+            "italy_2022_1"
+          ]
+        },
+        {
+          "title": "Rome",
+          "description": "Visiting the italian capital.",
+          "date": "19/08/2022",
+          "latitude": 41.890578,   
+          "longitude": 12.491508,
+          "pictures": [
+            "italy_2022_4"
+          ]
+        },
+        {
+          "title": "Vatican",
+          "description": "Day in Vatican to visit the museum and the gardens.",
+          "date": "20/08/2022",
+          "latitude": 41.903036,  
+          "longitude": 12.449478,
+          "pictures": [
+            "italy_2022_2"
+          ]
+        },
+        {
+          "title": "Riomaggiore",
+          "description": "Starting our week of hikes in Cinque Terre bt Riomaggiore.",
+          "date": "23/08/2022",
+          "latitude": 44.0979162595767,
+          "longitude": 9.736914155022948,
+          "pictures": [
+            "italy_2022_5"
+          ]
+        },
+        {
+          "title": "Manarola",
+          "description": "Continuing to explore the coastal villages.",
+          "date": "24/08/2022",
+          "latitude": 44.10768344140451, 
+          "longitude": 9.726608197638033,
+          "pictures": [
+            "italy_2022_6"
+          ]
+        },
+        {
+          "title": "Corniglia",
+          "description": "Hiking in the back country.",
+          "date": "25/08/2022",
+          "latitude": 44.123614, 
+          "longitude": 9.717800,
+          "pictures": [
+            "italy_2022_7"
+          ]
+        },
+        {
+          "title": "Vernazza",
+          "description": "More hikes and more tourisitc villages.",
+          "date": "26/08/2022",
+          "latitude": 44.136712738975746, 
+          "longitude": 9.683235358882616 ,
+          "pictures": [
+            "italy_2022_9"
+          ]
+        },
+        {
+          "title": "Monterosso al Mare",
+          "description": "Long hike around the Cinque Terre coast.",
+          "date": "27/08/2022",
+          "latitude": 44.140844, 
+          "longitude": 9.633353,
+          "pictures": [
+            "italy_2022_8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Brazil",
+      "startDate": "13/12/2021",
+      "endDate": "04/01/2022",
+      "background": "brasil_2021_background",
+      "steps": [
+        {    
+          "title": "Porto Alegre",
+          "description": "Visit of the family at the capital of Rio Grande do Sul.",
+          "date": "14/12/2021",
+          "latitude": -30.033306367083828,  
+          "longitude": -51.23008063016462,
+          "pictures": [
+            "brasil_2021_1"
+          ]
+        },
+        {
+          "title": "Arraial d'Ajuda",
+          "description": "Visiting the north east.",
+          "date": "16/12/2021",
+          "latitude": -16.51866001331498, 
+          "longitude": -39.078795820231704,
+          "pictures": [
+            "brasil_2021_2"
+          ]
+        },
+        {
+          "title": "Porto Seguro",
+          "description": "Visiting Porto Seguro with its walls of lembrancas.",
+          "date": "18/12/2021",
+          "latitude": -16.43582912261989,
+          "longitude": -39.06391972366331,
+          "pictures": [
+            "brasil_2021_3"
+          ]
+        },
+        {
+          "title": "Rio Grande",
+          "description": "Traveling all the way down south to celebrate Christmas.",
+          "date": "23/12/2021",
+          "latitude": -32.189383518298484,
+          "longitude": -52.15505959148137,
+          "pictures": [
+            "brasil_2021_4"
+          ]
+        },
+        {
+          "title": "Cassino",
+          "description": "Small touristic stop at the Molhes da Barra.",
+          "date": "26/12/2021",
+          "latitude": -32.18727003891615,
+          "longitude": -52.08037934387682,
+          "pictures": [
+            "brasil_2021_5"
+          ]
+        },
+        {
+          "title": "Bombinhas",
+          "description": "Last stop in Brasil to enjoy the new year.",
+          "date": "30/12/2021",
+          "latitude": -27.13409027729509, 
+          "longitude": -48.476964232712476,
+          "pictures": [
+            "brasil_2021_6"
+          ]
+        }
+      ]
+    }
+  ]

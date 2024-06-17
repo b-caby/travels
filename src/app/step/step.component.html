@@ -1,0 +1,16 @@
+<div class="step">
+    <div class="step-title">{{step.title}}</div>
+    <div class="step-info">
+        <span class="fi fi-{{countryFlag}}"></span>
+        <span class="separator"></span>
+        <span class="step-info__text">{{country}}</span>
+        <span class="separator"></span>
+        <span class="step-info__text">{{date}}</span>
+    </div>
+    <div class="step-description">{{step.description}}</div>
+    <div>
+        @for (picture of pictures; track picture) {
+            <img class="step-picture" src="{{picture}}">
+        }
+    </div> 
+</div>

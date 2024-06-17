@@ -1,0 +1,136 @@
+.trip__container {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    max-width: 1000px;
+    min-width: 600px;
+    z-index: 10;
+    overflow: auto;
+    background: var(--background);
+}
+
+.trip__close {
+    background-color: var(--grey-default);
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: start;
+    padding: var(--sg_sm);
+    padding-left: var(--sg);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+}
+
+.trip__steplist {
+    display: flex;
+    padding: 0px var(--sg_lg);
+    flex-direction: column;
+}
+
+.trip__limit {
+    display: flex;
+    padding: 24px 24px 24px 32px;
+    gap: var(--sg_lg);
+    align-items: center;
+    position: relative;
+}
+
+.limit-end::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    bottom: 65px;
+    left: 52px;
+    border: 0;
+    border-left: 1px solid var(--grey-darker);
+    width: 1px;
+}
+
+.limit-start::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 65px;
+    bottom: 0px;
+    left: 52px;
+    border: 0;
+    border-left: 1px solid var(--grey-darker);
+    width: 1px;
+}
+
+.limit-icon-container {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--grey-darker);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.limit-icon {
+    font-size: 32px;
+    color: var(--grey-darker);
+}
+
+.limit-description {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.limit-description_text {
+    font-weight: bolder;
+}
+
+.limit-description_date {
+    font-size: 12px;
+}
+
+.trip-separator {
+    position: relative;
+    display: flex;
+    padding: 24px 24px 24px 32px;
+    gap: var(--sg_lg);
+    align-items: center;
+}
+
+.trip-separator::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 36px;
+    border: 0;
+    border-left: 1px solid var(--grey-darker);
+    width: 1px;
+}
+
+.trip-separator_icon {
+    height: var(--sg);
+    width: var(--sg);
+    border: 1px solid var(--grey-darker);
+    border-radius: 50%;
+    background-color: var(--background);
+    z-index: 5;
+}
+
+.trip-separator_text {
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+@media (max-width: 720px) {
+    .trip__container {
+        top: auto;
+        width: 100svw;
+        height: 500px;
+        max-width: none;
+        min-width: auto;
+    }
+}
