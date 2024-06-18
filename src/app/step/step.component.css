@@ -48,12 +48,12 @@
     top: 0px;
     right: 0px;
     font-size: 24px;
-    padding: var(--sg);
+    padding: var(--sg_sm);
     cursor: pointer;
     color: black;
     background: white;
     margin: var(--sg);
-    border-radius: 50%;
+    border-radius: var(--border-radius);
     border: 1px solid;
   }
   
