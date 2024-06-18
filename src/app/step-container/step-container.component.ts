@@ -36,12 +36,14 @@ export class StepContainerComponent implements OnInit {
   }
 
   ngAfterViewInit(): void {
-    this.trip.steps.forEach((_, index) => {
-      new Glide(`.glide-${index}`, {
-        type: 'carousel',
-        startAt: 0,
-        perView: 1,
-      }).mount();
+    this.trip.steps.forEach((s, index) => {
+      if (s.pictures.length > 1) {
+        new Glide(`.glide-${index}`, {
+          type: 'carousel',
+          startAt: 0,
+          perView: 1,
+        }).mount();
+      }
     });
   }
 
