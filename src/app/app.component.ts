@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { environment } from '../environments/environment.development';
+import { environment } from '../environments/environment';
 import { AddLayerObject, GeoJSONSourceSpecification, LngLatBounds, Marker, Map } from 'maplibre-gl';
 import { Trip } from './model/trip';
 import { TravelService } from './service/travels.service';
