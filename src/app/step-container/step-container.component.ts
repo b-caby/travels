@@ -3,6 +3,7 @@ import { Trip } from '../model/trip';
 import { StepComponent } from "../step/step.component";
 import { TravelService } from '../service/travels.service';
 import { LngLatBounds, Map } from 'maplibre-gl';
+import Glide from '@glidejs/glide';
 
 @Component({
     selector: 'app-step-container',
@@ -32,6 +33,16 @@ export class StepContainerComponent implements OnInit {
 
     this.startDate = this.service.humanizeDate(this.trip.startDate);
     this.endDate = this.service.humanizeDate(this.trip.endDate);
+  }
+
+  ngAfterViewInit(): void {
+    this.trip.steps.forEach((_, index) => {
+      new Glide(`.glide-${index}`, {
+        type: 'carousel',
+        startAt: 0,
+        perView: 1,
+      }).mount();
+    });
   }
 
   public parseDuration(startDate: string, endDate: string): string {

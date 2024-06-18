@@ -16,7 +16,7 @@
     </div>
     <div class="trip__steplist">
         @for (step of trip.steps; track step; let index = $index; let last = $last) {
-            <app-step [step]=step></app-step>
+            <app-step [step]=step [position]=index></app-step>
             
             @if (!last) {
                 <div class="trip-separator">

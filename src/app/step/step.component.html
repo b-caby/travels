@@ -8,9 +8,24 @@
         <span class="step-info__text">{{date}}</span>
     </div>
     <div class="step-description">{{step.description}}</div>
-    <div>
-        @for (picture of pictures; track picture) {
-            <img class="step-picture" src="{{picture}}">
+
+    <div class="glide glide-{{position}}">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            @for (picture of pictures; track picture) {
+                <li class="glide__slide">
+                    <div class="step-picture" style='background-image: url("{{picture}}")'></div>
+                </li>
+            }
+          </ul>
+        </div>
+      
+        @if (pictures.length > 1) {
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                @for (picture of pictures; track picture; let i = $index) {
+                    <button class="glide__bullet" [attr.data-glide-dir]="'=' + i"></button>
+                }
+            </div>
         }
-    </div> 
+    </div>
 </div>

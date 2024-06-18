@@ -27,9 +27,14 @@
             "styles": [
               "src/styles.css",
               "node_modules/flag-icons/css/flag-icons.min.css",
-              "node_modules/maplibre-gl/dist/maplibre-gl.css"
+              "node_modules/maplibre-gl/dist/maplibre-gl.css",
+              "node_modules/photoviewer/dist/photoviewer.css",
+              "node_modules/@glidejs/glide/dist/css/glide.core.min.css",
+              "node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/photoviewer/dist/photoviewer.js"
+            ]
           },
           "configurations": {
             "production": {
