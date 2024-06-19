@@ -1,5 +1,25 @@
 [
     {
+      "id": 6,
+      "title": "Hiking the Pyrenees",
+      "startDate": "19/06/2024",
+      "endDate": "07/07/2024",
+      "background": "pyrenees_2024_background",
+      "zoom": 10,
+      "steps": [
+        {    
+          "title": "Enschede,
+          "description": "First step of a long journey. Heading to Paris for our first stop to see the family.",
+          "date": "19/06/2024",
+          "latitude": 52.216915, 
+          "longitude": 6.895908,
+          "pictures": [
+            "pyrenees_2024_1"
+          ]
+        }
+      ]
+    },
+    {
       "id": 5,
       "title": "Portugal",
       "startDate": "04/09/2023",
