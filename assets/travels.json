@@ -16,6 +16,16 @@
           "pictures": [
             "pyrenees_2024_1"
           ]
+        },
+        {    
+          "title": "Paris",
+          "description": "Pit stop in Paris for a night with a view of the Eiffel Tower. Tomorrow, we head for the far South.",
+          "date": "19/06/2024",
+          "latitude": 48.854083, 
+          "longitude": 2.400728,
+          "pictures": [
+            "pyrenees_2024_2"
+          ]
         }
       ]
     },
