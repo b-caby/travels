@@ -26,6 +26,16 @@
           "pictures": [
             "pyrenees_2024_2"
           ]
+        },
+        {    
+          "title": "Lourdes",
+          "description": "Visit of the pilgrimage city of Lourdes under the worst weather we could imagine. Basilics are nice but the rest of the city is full of tourist traps. Tomorrow, we finally head for the mountains.",
+          "date": "20/06/2024",
+          "latitude": 43.0962964, 
+          "longitude": -0.0482327,
+          "pictures": [
+"pyrenees_2024_3_1",pyrenees_2024_3_2",pyrenees_2024_3_3"
+          ]
         }
       ]
     },
