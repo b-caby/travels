@@ -47,6 +47,16 @@
           "pictures": [
 "pyrenees_2024_4_1", "pyrenees_2024_4_2"
           ]
+        },
+        {    
+          "title": "Lac d'Estaing",
+          "description": "13km warm up hike to reach the lac d'Estaing. The rain and the cold have deecided to accompagny us.",
+          "date": "22/06/2024",
+          "latitude": 42.904502, 
+          "longitude": -0.211611,
+          "pictures": [
+"pyrenees_2024_5_1", "pyrenees_2024_5_2", "pyrenees_2024_5_4", "pyrenees_2024_5_3"
+          ]
         }
       ]
     },
