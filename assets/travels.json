@@ -77,6 +77,16 @@
           "pictures": [
 "pyrenees_2024_7_1", "pyrenees_2024_7_2", "pyrenees_2024_7_3"
           ]
+        },
+        {    
+          "title": "Gavarnie",
+          "description": "Travelled to Gavarnie. Did two day hikes under the sun to reach the cirque via the touristic path and the long path. Beautiful views and weather.",
+          "date": "26/06/2024",
+          "latitude": 42.731100, 
+          "longitude": -0.008995,
+          "pictures": [
+"pyrenees_2024_8_1", "pyrenees_2024_8_2", "pyrenees_2024_8_3", "pyrenees_2024_8_4", "pyrenees_2024_8_5"
+          ]
         }
       ]
     },
